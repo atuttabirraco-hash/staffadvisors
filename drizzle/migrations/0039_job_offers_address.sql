@@ -1,0 +1,1 @@
+ALTER TABLE public.job_offers ADD COLUMN IF NOT EXISTS address text;

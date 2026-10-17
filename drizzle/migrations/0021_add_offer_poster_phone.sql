@@ -1,0 +1,2 @@
+ALTER TABLE public.job_offers ADD COLUMN IF NOT EXISTS poster_phone text;
+COMMENT ON COLUMN public.job_offers.poster_phone IS 'Contatto telefonico/WhatsApp mostrato ai candidati dopo il clic su Mostra contatti';

@@ -1,0 +1,1 @@
+ALTER TABLE public.app_settings ADD COLUMN IF NOT EXISTS adzuna_cache_minutes integer NOT NULL DEFAULT 10 CHECK (adzuna_cache_minutes BETWEEN 1 AND 1440);

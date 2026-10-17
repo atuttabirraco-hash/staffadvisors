@@ -1,0 +1,1 @@
+ALTER TABLE public.app_settings ADD COLUMN IF NOT EXISTS offers_free boolean NOT NULL DEFAULT true;

@@ -1,0 +1,2 @@
+ALTER TABLE public.disponibilita DROP CONSTRAINT disponibilita_descrizione_check;
+ALTER TABLE public.disponibilita ADD CONSTRAINT disponibilita_descrizione_check CHECK (char_length(descrizione) <= 2000);

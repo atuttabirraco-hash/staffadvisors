@@ -1,0 +1,349 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790241438235,
+      "tag": "0000_staff_advisors_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790380079368,
+      "tag": "0001_harden_rls",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790380192473,
+      "tag": "0002_email_verification_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790380528242,
+      "tag": "0003_benefits_on_reviews",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1790380887500,
+      "tag": "0004_app_settings_job_offers",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1790381143800,
+      "tag": "0005_benefit_details",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1790382452140,
+      "tag": "0006_companies_province_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1790382745437,
+      "tag": "0007_companies_search_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1790383578146,
+      "tag": "0008_company_stats_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1790383822839,
+      "tag": "0009_company_branches",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1790394378418,
+      "tag": "0010_user_accounts",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1790395048325,
+      "tag": "0011_own_review_functions",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1790399166941,
+      "tag": "0012_paid_job_offers",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1790399667157,
+      "tag": "0013_offer_admin_options",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1790399866539,
+      "tag": "0014_job_offer_messages",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1790400625475,
+      "tag": "0015_offer_accounts_refunds",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1790401602624,
+      "tag": "0016_offers_free_toggle",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1790410960363,
+      "tag": "0017_hospitality_extra_scores",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1790420357700,
+      "tag": "0018_restore_review_read_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1790446356850,
+      "tag": "0019_profile_username_from_signup",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1790532657749,
+      "tag": "0020_offer_poster_types_and_review_limits",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1790548481594,
+      "tag": "0021_add_offer_poster_phone",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1790615120478,
+      "tag": "0022_company_reply_requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1790674638982,
+      "tag": "0023_reply_verification",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1790748241887,
+      "tag": "0024_bacheca_disponibilita",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1790749119313,
+      "tag": "0025_add_private_cv_to_disponibilita",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1790751754212,
+      "tag": "0026_bind_curriculum_read_to_owner",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1790798020124,
+      "tag": "0027_retire_curriculum_storage",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1790802580060,
+      "tag": "0028_review_toggles",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1790807256143,
+      "tag": "0029_adzuna_cache_minutes",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1790851203846,
+      "tag": "0030_protect_availability_contacts",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1790852838463,
+      "tag": "0031_free_listings_15_days_cleanup",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1790862782936,
+      "tag": "0032_availability_contact_requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1790884151124,
+      "tag": "0033_restore_disponibilita_owner_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1790884166494,
+      "tag": "0034_disponibilita_private_reads",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1790884679986,
+      "tag": "0035_grant_disponibilita_owner",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1790940078090,
+      "tag": "0036_renew_availability_deadline",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1790940116892,
+      "tag": "0037_renew_availability_function",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1791294905307,
+      "tag": "0038_multiple_disponibilita_per_user",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1791349881403,
+      "tag": "0039_job_offers_address",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1791782770828,
+      "tag": "0040_disponibilita_descrizione_2000",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1791807780646,
+      "tag": "0041_cv_storage_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1791851593609,
+      "tag": "0042_migration",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1792095713932,
+      "tag": "0043_company_surveys",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1792096747554,
+      "tag": "0044_add_business_area_enabled",
+      "breakpoints": true
+    },
+    {
+      "idx": 45,
+      "version": "7",
+      "when": 1792102557404,
+      "tag": "0045_survey_question_kinds",
+      "breakpoints": true
+    },
+    {
+      "idx": 46,
+      "version": "7",
+      "when": 1792187954538,
+      "tag": "0046_survey_lifecycle_and_modes",
+      "breakpoints": true
+    },
+    {
+      "idx": 47,
+      "version": "7",
+      "when": 1792195597791,
+      "tag": "0047_company_accounts_link",
+      "breakpoints": true
+    },
+    {
+      "idx": 48,
+      "version": "7",
+      "when": 1792207880758,
+      "tag": "0048_survey_partial_progress_and_close",
+      "breakpoints": true
+    }
+  ]
+}

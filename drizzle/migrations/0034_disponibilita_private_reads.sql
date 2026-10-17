@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Pubblico legge annunci attivi" ON public.disponibilita;
